@@ -1,0 +1,42 @@
+h4 {
+  color: #0A9E99;
+  text-align: center;
+}
+
+.secao-pesquisar{
+  padding-left: 30%;
+
+}
+
+.input-pesquisar{
+  size: 30px;
+}
+
+.cards-content {
+  margin-left: 28%;
+}
+
+.input-finalizar-meta {
+  z-index: 10;
+}
+
+.content-card{
+  float: left;
+}
+
+.card-meta{
+  overflow: auto;
+}
+
+.card-meta::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.btn-meta-finalizar{
+  margin-top: 130px;
+  margin-left: 20px;
+}
+

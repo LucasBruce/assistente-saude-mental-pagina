@@ -1,0 +1,58 @@
+
+.cartao {
+  width: 249px;
+  height: 152px;
+  background-color: #13AFAA;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.icone {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.texto h2 {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+}
+
+.texto p {
+  color: white;
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+
+.texto-cartao {
+  text-align: center;
+}
+
+
+.material-symbols-outlined {
+  width: 20px;
+  height: 20px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.conteudo-cartoes{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.cartao:hover{
+  background-color: #5CF5F0;
+}
+
+.cartao:hover p {
+   color: black;
+}

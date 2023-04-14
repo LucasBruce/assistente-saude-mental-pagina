@@ -3,35 +3,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.menu-lateral {
-  position: absolute;
-  left: 0;
-  background-color: #EEFFFE;
-  margin-left: 40px;
-
-}
-
-.menu-lateral ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.menu-lateral ul li {
-  padding: 10px;
-  font-size: 10px;
-}
-
-
-.menu-lateral ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  color: #0A9E99;
-  margin-left: 5px;
-}
-
 .conteudo {
-  position: absolute;
+  position: relative;
   top: 20px;
   left: 140px;
   width: 849px;
@@ -39,59 +12,4 @@ body {
   background-color: white;
   padding: 40px 20px 0 20px;
   margin-left: 130px;
-}
-
-.conteudo-cartoes{
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  position: relative;
-  margin-top: 20px;
-}
-
-
-.cartao {
-  width: 249px;
-  height: 152px;
-  background-color: #13AFAA;
-  margin-left: 20px;
-}
-
-.icone {
-  margin-left: 20px;
-  margin-top: 20px;
-
-}
-
-.icone img {
-  width: 20px;
-  height: 20px;
-}
-
-.texto h2 {
-  color: white;
-  font-size: 18px;
-  margin: 0;
-}
-
-.texto p {
-  color: white;
-  font-size: 14px;
-  margin: 10px 0 0 0;
-}
-
-.texto-cartao {
-  text-align: center;
-}
-
-
-.material-symbols-outlined {
-  width: 20px;
-  height: 20px;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
 }

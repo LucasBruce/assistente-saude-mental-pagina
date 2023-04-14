@@ -1,0 +1,27 @@
+
+.menu-lateral {
+  position: absolute;
+  left: 0;
+  background-color: #EEFFFE;
+  margin-left: 40px;
+
+}
+
+.menu-lateral ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-lateral ul li {
+  padding: 10px;
+  font-size: 10px;
+}
+
+
+.menu-lateral ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  color: #0A9E99;
+  margin-left: 5px;
+}

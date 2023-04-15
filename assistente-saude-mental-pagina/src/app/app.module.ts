@@ -15,6 +15,7 @@ import { ButtonBrainlyComponent } from './button-brainly/button-brainly.componen
 import { AreaZenComponent } from './area-zen/area-zen.component';
 import { SeuAcompanhamentoComponent } from './seu-acompanhamento/seu-acompanhamento.component';
 import { CardOpcaoProfissionalComponent } from './card-opcao-profissional/card-opcao-profissional.component';
+import { AjudaOnlineComponent } from './ajuda-online/ajuda-online.component';
 
 
 
@@ -31,6 +32,7 @@ import { CardOpcaoProfissionalComponent } from './card-opcao-profissional/card-o
     AreaZenComponent,
     SeuAcompanhamentoComponent,
     CardOpcaoProfissionalComponent,
+    AjudaOnlineComponent,
   ],
    imports: [
     BrowserModule,

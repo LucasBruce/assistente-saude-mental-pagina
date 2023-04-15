@@ -1,0 +1,65 @@
+.card {
+  width: 620px;
+  height: 70px;
+  background-color: #13AFAA;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 40px;
+
+}
+
+.card-conteudo {
+  display: inline;
+  overflow: auto;
+}
+.card-conteudo::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.apresentacao {
+  display: inline;
+}
+.profile-icon{
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 50px;
+
+}
+.nome-profissional {
+  margin-top: 10px;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: white;
+  margin-left: 40px;
+}
+.nome-profissao{
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 10px;
+  color: white;
+  margin-left: 60px;
+}
+.secao-atendimento{
+  float: right;
+}
+.secao-atendimento div{
+  color: white;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+.secao-nome-profissao{
+  float: right;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.info-profissional {
+  padding-left: 40px;
+  width: 300px;
+}
+
+.data-atendimento{
+  margin-top: 10px;
+  text-align: center;
+}
+

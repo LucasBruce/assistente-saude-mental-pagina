@@ -10,3 +10,17 @@
   background-color: #0A9E99;
   color: white;
 }
+
+.button-large {
+  width: 300px;
+  height: 40px;
+  background-color: #13AFAA;
+  font-family: 'Roboto', Arial, sanf-serif;
+  border: none;
+  color: white;
+}
+
+.button-large:hover{
+  background-color: #3AE3DE;
+  color: black;
+}

@@ -7,11 +7,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AreaZenComponent } from './area-zen/area-zen.component';
+import { SeuAcompanhamentoComponent } from './seu-acompanhamento/seu-acompanhamento.component';
 
 const routes: Routes = [
   {path: 'metas-diarias',  component: MetasDiariasComponent, },
   {path: 'home', component: HomeComponent},
-  {path: 'area-zen', component: AreaZenComponent}
+  {path: 'area-zen', component: AreaZenComponent},
+  {path: 'seu-acompanhamento', component: SeuAcompanhamentoComponent}
+
 ];
 
 @NgModule({

@@ -12,5 +12,8 @@ export class CardsComponent {
   @Input()
   icon!: string;
 
+  @Input()
+  cardType !: string
+
 
 }

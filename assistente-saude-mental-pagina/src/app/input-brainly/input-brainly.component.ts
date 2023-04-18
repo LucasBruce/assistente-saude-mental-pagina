@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-input-brainly',
@@ -6,11 +7,17 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./input-brainly.component.scss']
 })
 export class InputBrainlyComponent {
+  
+  @Input() inputText!: string;
 
-  @Input()
-  placeholder !: string
+  @Input() placeholder!: string
 
-  @Input()
-  inputTypes !: string
+  @Input() inputTypes!: string
 
+  @Output() outputText = new EventEmitter<string>();
+
+  emitirEvento(): void{
+    this.outputText.emit(this.inputText);
+    this.inputText = '';
+  }
 }

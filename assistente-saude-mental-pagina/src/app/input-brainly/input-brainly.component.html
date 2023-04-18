@@ -1,1 +1,13 @@
-<input type="text" placeholder="{{placeholder}}" class="input {{inputTypes}}" />
+ <input 
+    type="text" 
+    placeholder="{{placeholder}}"
+    class="input {{inputTypes}}" 
+    [(ngModel)]="inputText"
+    >
+ <app-button-brainly
+    buttonDescription="Enviar"
+    buttonTypes="button-normal"
+    class="btn-enviar"
+    (click)="emitirEvento()"
+    >
+  </app-button-brainly>

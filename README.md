@@ -1,3 +1,9 @@
+# RUN
+
+- npm i
+
+- npm run start
+
 # assistente-saude-mental-pagina
 
 #CRIACAO DE TAREFAS:

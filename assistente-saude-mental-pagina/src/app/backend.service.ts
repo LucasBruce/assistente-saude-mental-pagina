@@ -17,7 +17,7 @@ export class BackendService {
 
     //const url = 'http://localhost:8081/usuarios/metas';
     //const url = 'http://localhost:8081/usuarios/metas/usuario/1/data/2023-04-19';
-    
+
     const url = 'http://localhost:8081/'+path;
     return this.http.get(url, httpOptions);
   }

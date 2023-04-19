@@ -2,8 +2,6 @@
   <app-button-brainly buttonTypes="button-large" buttonDescription="Últimas Consultas"></app-button-brainly>
   <app-button-brainly buttonTypes="button-large" buttonDescription="Próximos Agendamentos"></app-button-brainly>
 </div>
-<div>
-  <div *ngFor="let item of dados">
-    <app-card-opcao-profissional profissional="{{ item.nome }}" especialidade="{{ item.especialidade }}" atendimento="--"></app-card-opcao-profissional>
-  </div>
+<div *ngFor="let item of dados">
+  <app-card-opcao-profissional profissional="{{ item.nome }}" especialidade="{{ item.especialidade }}" atendimento="--"></app-card-opcao-profissional>
 </div>

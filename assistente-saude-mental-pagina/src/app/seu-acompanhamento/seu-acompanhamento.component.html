@@ -2,10 +2,6 @@
   <app-button-brainly buttonTypes="button-large" buttonDescription="Últimas Consultas"></app-button-brainly>
   <app-button-brainly buttonTypes="button-large" buttonDescription="Próximos Agendamentos"></app-button-brainly>
 </div>
-<div>
-  <app-card-opcao-profissional profissional="José da Silva - CRP 1234" especialidade="Psiquiatra" atendimento="15/04/2023"></app-card-opcao-profissional>
-  <app-card-opcao-profissional profissional="José da Silva - CRP 1234" especialidade="Psiquiatra" atendimento="15/04/2023"></app-card-opcao-profissional>
-  <app-card-opcao-profissional profissional="José da Silva - CRP 1234" especialidade="Psiquiatra" atendimento="15/04/2023"></app-card-opcao-profissional>
-  <app-card-opcao-profissional profissional="José da Silva - CRP 1234" especialidade="Psiquiatra" atendimento="15/04/2023"></app-card-opcao-profissional>
-  <app-card-opcao-profissional profissional="José da Silva - CRP 1234" especialidade="Psiquiatra" atendimento="15/04/2023"></app-card-opcao-profissional>
+<div *ngFor="let item of dados">
+  <app-card-opcao-profissional profissional="{{ item.nome }}" especialidade="{{ item.especialidade }}" atendimento="--"></app-card-opcao-profissional>
 </div>

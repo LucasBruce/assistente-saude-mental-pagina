@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-opcao-profissional',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-opcao-profissional.component.scss']
 })
 export class CardOpcaoProfissionalComponent {
+
+  @Input()
+  profissional!: string
+
+  @Input()
+  especialidade!: string;
+
+  @Input()
+  atendimento !: string
 
 }

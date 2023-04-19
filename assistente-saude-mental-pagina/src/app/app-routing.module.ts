@@ -7,6 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AjudaOnlineComponent } from './ajuda-online/ajuda-online.component';
 import { AreaZenComponent } from './area-zen/area-zen.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 import { MetasDiariasComponent } from './metas-diarias/metas-diarias.component';
 import { SeuAcompanhamentoComponent } from './seu-acompanhamento/seu-acompanhamento.component';
 
@@ -17,6 +18,8 @@ const routes: Routes = [
   {path: 'seu-acompanhamento', component: SeuAcompanhamentoComponent},
   {path: 'ajuda-online', component: AjudaOnlineComponent},
   {path: '', component: HomeComponent},
+  {path: 'login', component: LoginComponent}
+
 
 ];
 

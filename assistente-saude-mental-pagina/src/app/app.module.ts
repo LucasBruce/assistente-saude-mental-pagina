@@ -16,6 +16,7 @@ import { MenuEsquerdoComponent } from './menu-esquerdo/menu-esquerdo.component';
 import { MetasDiariasComponent } from './metas-diarias/metas-diarias.component';
 import { NoveMandamentosSaudeMentalComponent } from './nove-mandamentos-saude-mental/nove-mandamentos-saude-mental.component';
 import { SeuAcompanhamentoComponent } from './seu-acompanhamento/seu-acompanhamento.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -32,13 +33,14 @@ import { SeuAcompanhamentoComponent } from './seu-acompanhamento/seu-acompanhame
     SeuAcompanhamentoComponent,
     CardOpcaoProfissionalComponent,
     AjudaOnlineComponent,
+    LoginComponent
   ],
    imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule,
+    ReactiveFormsModule
 
   ],
   providers: [],
